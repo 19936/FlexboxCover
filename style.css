@@ -1,0 +1,67 @@
+body {
+    background-color: azure;
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    padding-left: 1em;
+    width: 100%;
+    display: flex;
+    
+}
+
+header p {
+    text-align: right;
+    margin-right: 1em;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+header h1 {
+    color: red;
+    letter-spacing: .1em;
+}
+
+section.flips {
+    padding: 2em;
+    min-width: 15em;
+    margin: .5em;
+    background-color: #39f;
+    color: #eea;
+    border-radius: 1em;
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.empty {
+    padding: 2em;
+    min-width: 15em;
+    margin: .5em;
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+section.flips img {
+    width: 100%;
+    height: auto;
+}
+
+section.flips:hover {
+    background-color: #06f;
+}
+
+section.flips button:last-child {
+    width: 10em;
+    padding: .5em;
+    background-color: aliceblue;
+    border-radius: .5em;
+    margin: auto auto 0 auto;
+}
